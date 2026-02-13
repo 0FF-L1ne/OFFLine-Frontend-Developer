@@ -35,7 +35,7 @@ const PortfolioSection = ({ title, description, year, image }) => {
 				<div className='project-info'>
 					<h2 className='project-name'>
 						<a
-							href='https://cryptocup.netlify.app'
+							href='https://cryptocup.vercel.app'
 							target='_blank'
 							rel='noopener noreferer'
 							style={{
