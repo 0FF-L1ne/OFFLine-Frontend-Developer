@@ -1,0 +1,25 @@
+.project-tools {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	gap: 0.8rem;
+	flex-shrink: 0;
+}
+
+.tool {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4.6875rem;
+	height: 4.6875rem;
+	background: #d9d9d9;
+	border: 1.5px solid transparent;
+	border-radius: 50px;
+	transition: border-color 0.2s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		border-color: var(--dark-green-color);
+		box-shadow: none;
+	}
+}

@@ -1,0 +1,32 @@
+:root {
+	--bg-light: #ebebeb;
+	--bg-dark: #13101a;
+	--bg-fixed-dark: #1f1b2a;
+	--dark-green-color: #34d399;
+	--dark-green-color-75: #34d399b7;
+	--light-green-color: #26ae7d;
+	--text-light: #eee;
+	--text-dark: #000;
+	--bg-section-light: #f2f2f2;
+	--bg-section-dark: #1b1725;
+	--default-color: #e0e0e0;
+	--color-black-100: var(--color-black);
+	--color-black-90: rgba(0, 0, 0, 0.9);
+	--color-black-75: rgba(0, 0, 0, 0.75);
+	--color-black-50: rgba(0, 0, 0, 0.5);
+	--color-black-40: rgba(0, 0, 0, 0.4);
+	--color-black-35: rgba(0, 0, 0, 0.35);
+	--color-black-30: rgba(0, 0, 0, 0.3);
+	--color-black-25: rgba(0, 0, 0, 0.25);
+	--color-black-10: rgba(0, 0, 0, 0.1);
+	--color-black-5: rgba(0, 0, 0, 0.05);
+
+	--color-white-75: rgba(255, 255, 255, 0.75);
+	--color-white-50: rgba(255, 255, 255, 0.5);
+	--color-white-25: rgba(255, 255, 255, 0.25);
+	--color-white-10: rgba(255, 255, 255, 0.1);
+	--color-white-5: rgba(255, 255, 255, 0.05);
+
+	--color-divider: rgba(157, 156, 156, 0.523);
+	--dark-color-divider: rgb(42, 42, 59);
+}

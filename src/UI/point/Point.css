@@ -1,0 +1,52 @@
+.point {
+	width: 0.875rem;
+	height: 0.875rem;
+	margin: 0.6875rem 1.125rem 0 0;
+	border-radius: 50%;
+	background: var(--dark-green-color);
+	flex-shrink: 0;
+}
+
+/* Adaptive for all devices */
+@media (max-width: 1620px) {
+	.point {
+		width: 0.75rem;
+		height: 0.75rem;
+		margin: 0.5rem 1rem 0 0;
+	}
+}
+
+@media (max-width: 1380px) {
+	.point {
+		width: 0.7rem;
+		height: 0.7rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.point {
+		width: 0.68rem;
+		height: 0.68rem;
+	}
+}
+
+@media (max-width: 830px) {
+	.point {
+		width: 0.65rem;
+		height: 0.65rem;
+	}
+}
+
+@media (max-width: 430px) {
+	.point {
+		width: 0.6rem;
+		height: 0.6rem;
+	}
+}
+
+@media (max-width: 360px) {
+	.point {
+		width: 0.55rem;
+		height: 0.55rem;
+	}
+}

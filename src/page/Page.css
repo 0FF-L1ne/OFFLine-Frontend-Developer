@@ -1,0 +1,32 @@
+.page {
+	width: 100%;
+	max-width: 100%;
+	padding: 3.125rem 0;
+}
+
+/* Adaptive for all devices */
+@media (max-width: 1620px) {
+	.page {
+		padding-top: 1.875rem;
+	}
+}
+
+@media (max-width: 1380px) {
+	.page {
+		padding-top: 0.3rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.page {
+		padding-top: 0.2rem;
+		padding-bottom: 2rem;
+	}
+}
+
+@media (max-width: 432px) {
+	.page {
+		padding-top: 0;
+		padding-bottom: 1.6rem;
+	}
+}

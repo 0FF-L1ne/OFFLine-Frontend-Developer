@@ -1,0 +1,39 @@
+.contacts {
+	margin-top: 30rem;
+	padding: 0 12rem;
+}
+
+#contacts {
+	scroll-margin-top: 10vh;
+}
+
+/* Adaptive for all devices */
+@media (max-width: 1620px) {
+	.contacts {
+		padding: 0 10rem;
+	}
+}
+
+@media (max-width: 1380px) {
+	.contacts {
+		padding: 0 3.125rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.contacts {
+		padding: 0 2.5rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.contacts {
+		padding: 0 2rem;
+	}
+}
+
+@media (max-width: 432px) {
+	.contacts {
+		padding: 0 1rem;
+	}
+}

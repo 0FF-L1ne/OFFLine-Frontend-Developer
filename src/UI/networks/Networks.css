@@ -1,0 +1,22 @@
+.social-networks {
+	display: flex;
+	height: max-content;
+	gap: 0.8rem;
+}
+
+.network {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0.1rem;
+	width: 4.6875rem;
+	height: 4.6875rem;
+	background: #d9d9d9;
+	border: 1.5px solid transparent;
+	border-radius: 50px;
+	cursor: pointer;
+
+	&:hover {
+		box-shadow: none;
+	}
+}

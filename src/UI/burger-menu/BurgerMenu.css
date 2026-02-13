@@ -1,0 +1,45 @@
+.menu-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 800;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-content {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	gap: 3rem;
+	font-size: 28px;
+}
+
+/* Adaptive for all devices */
+@media (max-width: 932px) {
+	.menu-content {
+		font-size: 24px;
+		margin-top: 2.5rem;
+		gap: 2.5rem;
+	}
+}
+
+@media (max-width: 882px) {
+	.menu-content {
+		font-size: 24px;
+		margin-top: 2.5rem;
+		gap: 1.8rem;
+	}
+}
+
+@media (max-width: 740px) {
+	.menu-content {
+		gap: 2rem;
+	}
+}
+
+@media (max-width: 375px) {
+	.menu-content {
+		gap: 3rem;
+	}
+}

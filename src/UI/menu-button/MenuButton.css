@@ -1,0 +1,14 @@
+.burger-menu {
+	z-index: 850;
+	display: none;
+	width: 3rem;
+	height: 3rem;
+	background: transparent;
+	border: 2px solid var(--dark-green-color);
+	border-radius: 6px;
+	color: var(--dark-green-color);
+
+	.burger {
+		scale: 2.2;
+	}
+}

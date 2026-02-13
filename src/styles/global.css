@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: 300;
+}
+
+html {
+	display: block;
+
+	background: var(--bg-light);
+	scroll-behavior: smooth;
+}
+
+html[data-theme='light'] {
+	background: var(--bg-light);
+}
+
+html[data-theme='dark'] {
+	background: var(--bg-dark);
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
