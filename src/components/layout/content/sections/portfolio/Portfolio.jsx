@@ -40,7 +40,7 @@ const Portfolio = () => {
 					year='October 2025 - November 2025'
 					title='Crypto Cup'
 					image={cryptoCup}
-					description='Данная работа была разработана в учебных целях, она представляет из себя подобие крипто-биржи, однако база данных в ней не настоящая.'
+					description='This project was developed for educational purposes; it resembles a crypto exchange, but the database is not real.'
 				/>
 			</motion.section>
 		</motion.section>
