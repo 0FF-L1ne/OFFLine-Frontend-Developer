@@ -49,7 +49,7 @@ const HeaderFixed = ({ handleScroll, shouldShowFixed, categories }) => {
 							>
 								<motion.img
 									src={isDark ? darkIcon : lightIcon}
-									alt='Переключить тему'
+									alt='Switch theme'
 									initial={false}
 									animate={{ rotate: isDark ? 20 : -60 }}
 									transition={{ duration: 0.25 }}

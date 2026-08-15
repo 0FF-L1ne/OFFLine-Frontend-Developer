@@ -13,10 +13,10 @@ const BurgerMenu = () => {
 	}, [isOpenMenu])
 
 	const categories = [
-		{ id: 'about', name: 'Обо мне', path: '#about' },
-		{ id: 'portfolio', name: 'Портфолио', path: '#portfolio' },
-		{ id: 'skills', name: 'Навыки', path: '#skills' },
-		{ id: 'contacts', name: 'Контакты', path: '#contacts' },
+		{ id: 'about', name: 'About', path: '#about' },
+		{ id: 'portfolio', name: 'Portfolio', path: '#portfolio' },
+		{ id: 'skills', name: 'Skills', path: '#skills' },
+		{ id: 'contacts', name: 'Contacts', path: '#contacts' },
 	]
 
 	return (

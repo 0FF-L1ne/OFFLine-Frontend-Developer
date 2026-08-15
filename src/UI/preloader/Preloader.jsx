@@ -20,7 +20,7 @@ const Preloader = () => {
 		<div className='preloader-overlay' style={{ perspective: '1000px' }}>
 			<motion.img
 				src={logo}
-				alt='Идет загрузка...'
+				alt='Loading...'
 				className='preloader'
 				variants={variants}
 				initial={initialVariant}

@@ -17,7 +17,8 @@ const Skills = () => {
 		'Webpack, Vite',
 		'Accessibility, BEM, UX',
 		'Python (Basic level)',
-		'Git, GitHub, GitLab',
+		'After Effects, Premiere Pro',
+		'Git, GitHub, GitLab,',
 	]
 	const style = {
 		background: isDark ? 'var(--bg-section-dark)' : 'var(--bg-section-light)',
@@ -34,7 +35,7 @@ const Skills = () => {
 				viewport={{ once: true }}
 				style={{ color: isDark ? 'var(--dark-green-color)' : 'var(--light-green-color)' }}
 			>
-				Навыки
+				Skills
 			</motion.h1>
 			<section className='skills-section'>
 				<SkillsSection cards={cards} style={style} />

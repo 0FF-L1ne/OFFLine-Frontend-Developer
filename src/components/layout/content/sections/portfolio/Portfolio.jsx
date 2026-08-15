@@ -26,7 +26,7 @@ const Portfolio = () => {
 				viewport={{ once: true }}
 				style={{ color: isDark ? 'var(--dark-green-color)' : 'var(--light-green-color)' }}
 			>
-				Портфолио
+				Portfolio
 			</motion.h1>
 
 			<motion.section

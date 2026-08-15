@@ -15,7 +15,7 @@ const Networks = () => {
 		{
 			id: 'telegram',
 			Icon: BsTelegram,
-			url: 'https://t.me/R_HE3HAIO',
+			url: 'https://t.me/off_line24',
 			color: 'var(--dark-green-color)',
 		},
 	]

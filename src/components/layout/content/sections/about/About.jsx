@@ -24,9 +24,10 @@ const About = () => {
 				whileInView={{ x: 0, opacity: 1 }}
 				viewport={{ once: true }}
 			>
-				<b className={isDark ? 'dark' : 'light'}>Привет!</b> Меня зовут{' '}
-				<b className={isDark ? 'dark' : 'light'}>Исмаил.</b>
-				<br />И это мой <b className={isDark ? 'dark' : 'light'}>портфолио!</b>
+				<b className={isDark ? 'dark' : 'light'}>Hello!</b> My name is{' '}
+				<b className={isDark ? 'dark' : 'light'}>Ismail.</b>
+				<br />
+				And this is my <b className={isDark ? 'dark' : 'light'}>portfolio!</b>
 			</motion.h1>
 
 			{/* Пункты */}
@@ -39,25 +40,25 @@ const About = () => {
 				viewport={{ once: true, amount: 0.49 }}
 			>
 				<AboutSection>
-					Я начинающий фронтенд-разработчик, нахожусь на уровне junior и продолжаю развиваться. За год
-					изучения сферы web-разработки, а также современных технологий, я достаточно многому научился, и это
-					не предел.
+					I am an aspiring frontend developer at the junior level, and I am continuing to grow. Over the past
+					year of studying web development and modern technologies, I have learned a great deal—and I am just
+					getting started.
 				</AboutSection>
 
 				<AboutSection>
-					На момент разработки данного проекта, я продолжаю осваивать новые инструменты, постепенно усложняя
-					проекты и улучшая качество своей работы.
+					As I develop this project, I continue to master new tools, gradually increasing the complexity of my
+					projects and improving the quality of my work.
 				</AboutSection>
 
 				<AboutSection>
-					Этот сайт — часть моего индивидуального проекта и одновременно личное портфолио, где я демонстрирую
-					процесс разработки, используемые технологии, дизайн и подход к созданию SPA-приложения.
+					This site is part of my individual project and also serves as a personal portfolio where I showcase
+					the development process, the technologies used, the design, and my approach to building an SPA.
 				</AboutSection>
 
 				<AboutSection>
-					В будущем я намерен углубиться в область фронтенд-разработки, а также совершенствовать свои
-					способности в дизайне интерфейсов и архитектуре приложений. Кроме того, я планирую интегрировать
-					сюда и другие свои проекты.
+					In the future, I intend to delve deeper into frontend development and further hone my skills in
+					interface design and application architecture. Additionally, I plan to integrate my other projects
+					here as well.
 				</AboutSection>
 			</motion.section>
 		</motion.section>
