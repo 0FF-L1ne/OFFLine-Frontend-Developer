@@ -35,7 +35,7 @@ const Skills = () => {
 				viewport={{ once: true }}
 				style={{ color: isDark ? 'var(--dark-green-color)' : 'var(--light-green-color)' }}
 			>
-				Skills
+				Навыки
 			</motion.h1>
 			<section className='skills-section'>
 				<SkillsSection cards={cards} style={style} />

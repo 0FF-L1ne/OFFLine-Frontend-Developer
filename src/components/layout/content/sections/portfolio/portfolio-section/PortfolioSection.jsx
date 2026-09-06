@@ -1,11 +1,10 @@
 import { useTheme } from '../../../../../../context/ThemeContext'
 import { useModal } from '../../../../../../context/ModalContext'
-import Tools from '../../../../../../UI/tools/Tools'
 import Divider from '../../../../../../UI/Divider'
 import { motion } from 'framer-motion'
 import './PortfolioSection.css'
 
-const PortfolioSection = ({ title, description, year, image }) => {
+const PortfolioSection = ({ title, description, year, image, tools }) => {
 	const { isDark } = useTheme()
 	const { openModal } = useModal()
 
@@ -35,7 +34,6 @@ const PortfolioSection = ({ title, description, year, image }) => {
 				<div className='project-info'>
 					<h2 className='project-name'>
 						<a
-							href='https://cryptocup.vercel.app'
 							target='_blank'
 							rel='noopener noreferer'
 							style={{
@@ -63,7 +61,7 @@ const PortfolioSection = ({ title, description, year, image }) => {
 						style={{ borderColor: isDark ? 'var(--dark-color-divider)' : 'var(--color-divider)' }}
 					/>
 
-					<Tools />
+					{tools}
 				</div>
 			</section>
 		</motion.article>

@@ -22,17 +22,17 @@ const ContactsSection = ({ isDark }) => {
 					className='description-label'
 					style={{ color: isDark ? 'var(--text-light)' : 'var(--text-dark)' }}
 				>
-					How can I be{' '}
-					<b style={{ color: isDark ? 'var(--dark-green-color)' : 'var(--light-green-color)' }}>contacted?</b>
+					Как со мной{' '}
+					<b style={{ color: isDark ? 'var(--dark-green-color)' : 'var(--light-green-color)' }}>связаться?</b>
 				</h1>
 				<Networks />
 			</section>
 
 			<section className='description' style={{ color: isDark ? 'var(--text-light)' : 'var(--text-dark)' }}>
 				<p>
-					You can contact me on my <br />
+					Вы можете связаться со мной в моих <br />
 					<b style={{ color: isDark ? 'var(--dark-green-color)' : 'var(--light-green-color)' }}>
-						social media.
+						социальных сетях.
 					</b>
 				</p>
 			</section>
